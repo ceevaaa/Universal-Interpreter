@@ -1,0 +1,77 @@
+A  — ———
+B  ——— — — —
+C  ——— — ——— —
+D  ——— — —
+E  —
+F  — — ——— —
+G  ——— ——— —
+H  — — — —
+I  — —
+J  — ——— ——— ———
+K  ——— — ———
+L  — ——— — —
+M  ——— ———
+N  ——— —
+O  ——— ——— ———
+P  — ——— ——— —
+Q  ——— ——— — ———
+R  — ——— —
+S  — — —
+T  ———
+U  — — ———
+V  — — — ———
+W  — ——— ———
+X  ——— — — ———
+Y  ——— — ——— ———
+Z  ——— ——— — —
+Å  — ——— ——— — ———
+Ä  — ——— — ———
+Ö  ——— ——— ——— —
+É  — — ——— — —
+Ñ  ——— ——— — ——— ———
+Ñ  ——— ——— — ——— ———
+Ü  — — ——— ———
+Û  — — ——— ———
+CH ——— ——— ——— ———
+Š  ——— ——— ——— ———
+ß  — — — ——— ——— — —
+Ç  ——— — ——— — —
+Ŝ  ——— — ——— — —
+1  — ——— ——— ——— ———
+2  — — ——— ——— ———
+3  — — — ——— ———
+4  — — — — ———
+5  — — — — —
+6  ——— — — — —
+7  ——— ——— — — —
+8  ——— ——— ——— — —
+9  ——— ——— ——— ——— —
+0  ——— ——— ——— ——— ———
+?  — — ——— ——— — —            # Frågetecken                                       
+!  — — ——— ——— —              # Utropstecken [1]                                  
+,  ——— ——— — — ——— ———        # Kommatecken                                       
+.  — ——— — ——— — ———          # Punkt-tecken                                      
+=  ——— — — — ———              # Åtskillnadstecken                                 
+—  ——— — — — — ———            # Bindestreck, minustecken                          
+(  ——— — ——— ——— —            # Vänsterparentes                                   
+)  ——— — ——— ——— — ———        # Högerparentes                                     
+~  — — — — — — — —            # Felskrivningstecken (våglinje)                    
++  — ——— — ——— —              # Procedurtecken "Slut på meddelandet"              
+@  — — — ——— — ———            # Procedurtecken "Slut på sändningen"               
+@  — ——— ——— — ——— —          # Texttecken "Snabel-A". Infördes 2004              
+/  ——— — — ——— —              # Bråkstreck                                        
+%  — ——— ——— — —              # Procent-tecken                                    
+"  — ——— — — ——— —            # Citat-tecken                                      
+;  ——— — ——— — ——— —          # Semikolon                                         
+:  ——— ——— ——— — — —          # Kolon                                             
+§  — — — ——— —                # Procedurtecken "Förstått"                         
+¿  — — ——— — ———              # Inleder frågesats i spanska och portugisiska      
+~  ——— — ——— — ———            # Procedurtecken "Lystring"                         
+'  — ——— ——— ——— ——— —        # Apostrof                                          
+#  — ——— — — ———              # Skillnadstecken. Kan förenklat symboliseras med //
+&  — ——— — — —                # "Ampersand"                                       
+$  — — — ——— — — ———          # SX, "S crossed"                                   
+§  — ——— — — —                # Väntatecken  (sqrt)                                     
+*  — —   — —                  # Upprepningstecken                                 
+¡  ——— ——— — — — ———          # Inleder utropssats i spanska och portugisiska     
+
