@@ -6,13 +6,13 @@ import sound
 def convtomorse(word,morse):
     strpos = 0
     while strpos <= len(word) - 1:
-        morse = morse + morsealf.signtomorse(arg[strpos])
+        morse = morse + morsealf.signtomorse(word[strpos])
         strpos += 1
-    morse = morse + "  " #end of word
+    morse = morse + "       " #end of word
     return morse
 
 def finalconversion(seq):
     morse = ""
     morse = convtomorse(seq,morse)
-    playmorse.morsetosound(morse)
-    print(morsecode.strip())
+    #playmorse.morsetosound(morse)
+    print(morse.strip())

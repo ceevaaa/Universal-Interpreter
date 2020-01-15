@@ -94,8 +94,10 @@ with tf.Session() as sess:
             cv2.imshow('sequence', img_sequence)
             if a == 27: # when `esc` is pressed
                 break
-
+meta_file = open("meta_file.txt","w+")
 print(sequence)
+meta_file.write(sequence)
+meta_file.close
 input("Press Enter to Continue")
 #time.sleep(5)
 # Following line should... <-- This should work fine now

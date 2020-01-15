@@ -90,7 +90,8 @@ tomorse = {
     '$' : '. . . _ . . _'  ,  # SX, "S crossed"
     '√' : '. _ . . .'      ,  # Väntatecken  (sqrt)
     '*' : '. .   . .'      ,  # Upprepningstecken
-    '¡' : '_ _ . . . _'}      # Inleder utropssats i spanska och portugisiska
+    '¡' : '_ _ . . . _'    ,  # Inleder utropssats i spanska och portugisiska
+    ' ' : '       '}     
 
 tosign = {
      '. _'            : 'A' ,
