@@ -33,4 +33,4 @@ Take the output data and represent it either visually, via vibrations or via spe
 4. Morse codes wherever these are not possible  
 
 ## **Project Flow - Flowchart**  
-[Project Flow - Flowchart](./Abstract_Flowchart.jpg)
+![Project Flow - Flowchart](./Abstract_Flowchart.jpg)
