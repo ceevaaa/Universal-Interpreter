@@ -1,4 +1,4 @@
-# Universal-Interpreter  
+# Universal Interpreter  
 A solution to help the differently-abled people, i.e. deaf, dumb, blind or combination of any, by using Image
 Recognition and AI/ML.  
 
