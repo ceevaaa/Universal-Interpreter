@@ -34,3 +34,6 @@ Take the output data and represent it either visually, via vibrations or via spe
 
 ## **Project Flow - Flowchart**  
 ![Project Flow - Flowchart](./Abstract_Flowchart.jpg)
+
+## **Android App Implementation**
+[Universal Interpreter Android App GitHub Link](https://github.com/allanakshay12/Universal-Interpreter-Android-App.git)
