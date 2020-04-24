@@ -46,9 +46,7 @@ with tf.Session() as sess:
     softmax_tensor = sess.graph.get_tensor_by_name('final_result:0')
 
     c = 0
-
     cap = cv2.VideoCapture(0)
-
     res, score = '', 0.0
     i = 0
     mem = ''
@@ -60,12 +58,14 @@ with tf.Session() as sess:
         img = cv2.flip(img, 1)
         
         if ret:
+            #Bounding Box points 
             x1, y1, x2, y2 = 200, 200, 400, 400
+            #The bounding box itself on which prediction has to be done
             img_cropped = img[y1:y2, x1:x2]
 
             c += 1
+            #Naming the captured image with .jpg extension
             image_data = cv2.imencode('.jpg', img_cropped)[1].tostring()
-            
             a = cv2.waitKey(1) # waits to see if `esc` is pressed
             
             if i == 17:
@@ -95,12 +95,15 @@ with tf.Session() as sess:
             cv2.imshow('sequence', img_sequence)
             if a == 27: # when `esc` is pressed
                 break
+                
+#Print the final sequence predicted by the model                
 print(sequence)
+
+#Write the sequence to a meta file to further convert the message
 meta_file = open("meta_file.txt","w")
 meta_file.write(sequence)
 meta_file.close()
+
 input("Press Enter to Continue")
-#time.sleep(5)
-# Following line should... <-- This should work fine now
 cv2.destroyAllWindows() 
 cv2.VideoCapture(0).release()
