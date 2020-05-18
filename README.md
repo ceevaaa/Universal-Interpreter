@@ -1,3 +1,6 @@
+## EDIT- 19th May 2020
+Winner of Unisys Cloud 2020
+
 # Universal Interpreter  
 A solution to help the differently-abled people, i.e. deaf, dumb, blind or combination of any, by using Image
 Recognition and AI/ML.  
@@ -9,8 +12,7 @@ a tough place to live in for differently abled people. Hence, our aim was inspir
 use the very same dominating technologies to help the differently abled overcome their challenges.  
 
 ## **Requirements**  
-* Python
-* Keras  
+* Python 
 * Tensorflow  
 * OpenCV  
 * Web development/Android tools for UI/Testing  
