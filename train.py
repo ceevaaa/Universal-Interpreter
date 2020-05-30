@@ -75,7 +75,7 @@ def create_image_lists(image_dir, testing_percentage, validation_percentage):
         if is_root_dir:
             is_root_dir = False
             continue
-        extensions = ['jpg', 'jpeg', 'JPG', 'JPEG']
+        extensions = ['jpg', 'jpeg', 'JPG', 'JPEG','png','PNG']
         file_list = []
         dir_name = os.path.basename(sub_dir)
         if dir_name == image_dir:
