@@ -47,7 +47,7 @@ Please refer to this [link](https://github.com/allanakshay12/Universal-Interpret
 2. Prepare the image data sets - In order to start the transfer learning process, a folder named dataset needs to be created in the root of the project folder. This folder will contain the image data sets for all the subjects, for which the classification is to be performed.
 3. Create the dataset folder and add the images for all the data sets in the following manner: (This enables classification of images between the A and B data sets.)  
 >|  
->----<code>&nbsp;</code>/dataset  
+>----<code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code>/dataset  
 >|<code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code>|  
 >|<code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code>|  
 >|<code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code>----<code>&nbsp;</code>/A  
