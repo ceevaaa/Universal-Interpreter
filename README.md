@@ -45,8 +45,7 @@ Take the output data and represent it either visually, via vibrations or via spe
 ### Data Set Training and Usage
 1. Install all the dependencies from the requirements.txt file.
 2. Prepare the image data sets - In order to start the transfer learning process, a folder named dataset needs to be created in the root of the project folder. This folder will contain the image data sets for all the subjects, for which the classification is to be performed.
-3. Create the dataset folder and add the images for all the data sets in the following manner:
-
+3. Create the dataset folder and add the images for all the data sets in the following manner: (This enables classification of images between the A and B data sets.)  
 >|  
 >----<code>&nbsp;</code>/dataset  
 >|<code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code>|  
@@ -61,11 +60,8 @@ Take the output data and represent it either visually, via vibrations or via spe
 >|<code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code>B1.jpg  
 >|<code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code>B2.jpg  
 >|<code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code>...  
->|  
-
-This enables classification of images between the A and B data sets.  
+>|   
 4. Initiate transfer learning - Go to the project directory and run:
-
 >python train.py \  
 ><code>&nbsp;</code><code>&nbsp;</code>--bottleneck_dir=logs/bottlenecks \  
 ><code>&nbsp;</code><code>&nbsp;</code>--how_many_training_steps=2000 \  
@@ -74,7 +70,6 @@ This enables classification of images between the A and B data sets.
 ><code>&nbsp;</code><code>&nbsp;</code>--output_graph=logs/trained_graph.pb \  
 ><code>&nbsp;</code><code>&nbsp;</code>--output_labels=logs/trained_labels.txt \  
 ><code>&nbsp;</code><code>&nbsp;</code>--image_dir=./dataset  
-
 5. The training summaries, trained graphs and trained labels will be saved in a folder named logs.  
 6. To run prediction on the images use " python classify.py _example.png_ ".  
 7. To run prediction using a webcam use " python classify_webcam.py ".  
