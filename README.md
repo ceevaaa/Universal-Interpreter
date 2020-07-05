@@ -1,5 +1,5 @@
-## EDIT- 19th May 2020
-Winner of Unisys Cloud 2020
+### EDIT- 19th May, 2020
+Winner of *Unisys Cloud 20/20 Year 11*
 
 # Universal Interpreter  
 A solution to help the differently-abled people, i.e. deaf, dumb, blind or combination of any, by using Image
@@ -40,7 +40,7 @@ Take the output data and represent it either visually, via vibrations or via spe
 ## **Android App Implementation**
 [Universal Interpreter Android App GitHub Link](https://github.com/allanakshay12/Universal-Interpreter-Android-App.git)
 
-## **Instructions to use the Project**
+## **Instructions to run the Project**
 
 ### Data Set Training and Usage
 1. Install all the dependencies from the [requirements.txt](./requirements.txt) file.
