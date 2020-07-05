@@ -1,4 +1,4 @@
-### EDIT- 19th May, 2020
+### Update - 19th May, 2020
 Winner of *Unisys Cloud 20/20 Year 11*
 
 # Universal Interpreter  
