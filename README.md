@@ -46,31 +46,31 @@ Take the output data and represent it either visually, via vibrations or via spe
 1. Install all the dependencies from the requirements.txt file.
 2. Prepare the image data sets - In order to start the transfer learning process, a folder named dataset needs to be created in the root of the project folder. This folder will contain the image data sets for all the subjects, for which the classification is to be performed.
 3. Create the dataset folder and add the images for all the data sets in the following manner:
->|
----- /dataset
-|    |
-|    |
-|    ---- /A
-|    |    A1.jpg
-|    |    A2.jpg
-|    |    ...
-|    |
-|    |
-|    ---- /B
-|         B1.jpg
-|         B2.jpg
-|         ...
-|`
+>|  
+>---- /dataset  
+>|    |  
+>|    |  
+>|    ---- /A  
+>|    |    A1.jpg  
+>|    |    A2.jpg  
+>|    |    ...  
+>|    |  
+>|    |  
+>|    ---- /B  
+>|         B1.jpg  
+>|         B2.jpg  
+>|         ...  
+>|  
 This enables classification of images between the A and B data sets.
 4. Initiate transfer learning - Go to the project directory and run:
-`python train.py \
-  --bottleneck_dir=logs/bottlenecks \
-  --how_many_training_steps=2000 \
-  --model_dir=inception \
-  --summaries_dir=logs/training_summaries/basic \
-  --output_graph=logs/trained_graph.pb \
-  --output_labels=logs/trained_labels.txt \
-  --image_dir=./dataset`
+>python train.py \  
+>  --bottleneck_dir=logs/bottlenecks \  
+>  --how_many_training_steps=2000 \  
+>  --model_dir=inception \  
+>  --summaries_dir=logs/training_summaries/basic \  
+>  --output_graph=logs/trained_graph.pb \  
+>  --output_labels=logs/trained_labels.txt \  
+>  --image_dir=./dataset  
 5. The training summaries, trained graphs and trained labels will be saved in a folder named logs.
 6. To run prediction on the images use " python classify.py _example.png_ ".
 7. To run prediction using a webcam use " python classify_webcam.py ".
