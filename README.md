@@ -51,9 +51,9 @@ Please refer to this [link](https://github.com/allanakshay12/Universal-Interpret
 >|<code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code>|  
 >|<code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code>|  
 >|<code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code>----<code>&nbsp;</code>/A  
->|<code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code>|<code>&nbsp;</code>A1.jpg  
->|<code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code>|<code>&nbsp;</code>A2.jpg  
->|<code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code>|<code>&nbsp;</code>...  
+>|<code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code>|<code>&nbsp;</code><code>&nbsp;</code>A1.jpg  
+>|<code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code>|<code>&nbsp;</code><code>&nbsp;</code>A2.jpg  
+>|<code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code>|<code>&nbsp;</code><code>&nbsp;</code>...  
 >|<code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code>|  
 >|<code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code>|  
 >|<code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code><code>&nbsp;</code>----<code>&nbsp;</code>/B  
