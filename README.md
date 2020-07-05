@@ -43,7 +43,7 @@ Take the output data and represent it either visually, via vibrations or via spe
 ## **Instructions to use the Project**
 
 ### Data Set Training and Usage
-1. Install all the dependencies from the requirements.txt file.
+1. Install all the dependencies from the [requirements.txt](./requirements.txt) file.
 2. Prepare the image data sets - In order to start the transfer learning process, a folder named dataset needs to be created in the root of the project folder. This folder will contain the image data sets for all the subjects, for which the classification is to be performed.
 3. Create the dataset folder and add the images for all the data sets in the following manner: (This enables classification of images between the A and B data sets.)  
 >|  
