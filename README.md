@@ -47,8 +47,11 @@ Take the output data and represent it either visually, via vibrations or via spe
 2. Prepare the image data sets - In order to start the transfer learning process, a folder named dataset needs to be created in the root of the project folder. This folder will contain the image data sets for all the subjects, for which the classification is to be performed.
 3. Create the dataset folder and add the images for all the data sets in the following manner:
 `|
+
 ---- /dataset
+
 |    |
+
 |    |
 |    ---- /A
 |    |    A1.jpg
