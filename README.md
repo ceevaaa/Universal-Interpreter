@@ -75,3 +75,16 @@ Take the output data and represent it either visually, via vibrations or via spe
 7. To run prediction using a webcam use " python classify_webcam.py ".  
 
 ### Android App Usage
+1. Download the Android App using this [link](https://drive.google.com/file/d/1JIP3Rifu4HVmTj_o0_8483gyBRdiqz4h/view?usp=sharing) onto your Android Device.
+2. Once you've installed the application onto your phone, open it and you'll be welcomed with the *Settings Screen*. Select your input and output preferences, your email-id, and your password. Once you're done, just tap on *Save* and you'll be greeted with the default page of the app.
+3. On the default page, tap the right half of the screen to move to the next contact in your chat list. Tap on the left half of the screen to move to the previous contact in your chat list.
+4. On the same page, long press the right half of the screen to read the message sent by the displayed contact. Long press the left half of the screen to send a message to a new contact.
+5. The *Message Screen* and the *New Message Screen* use similar input methods for entering the text into the textbox. The usage of the screen as an input method is as follows:
+>* The Screen is divided into three parts - the Bottom Half (*BH*), the Upper Left Half (*ULH*) and the Upper Right Half (*URH*).  
+>* For the Morse input method, tap the *URH* to enter a dot. Long press the *URH* to enter a dash. Tap the *ULH* to delte the previous character from the textbox. Tap the *BH* to enter a space. Long press the *BH* to send the message *or* start a new conversation.  
+>* For the Speech input method, tap anywhere on the screen (except the *ULH*) to capture your speech input. Tap the *ULH* to delete the previous character from the textbox. Long press the *BH* to send the message *or* start a new conversation.  
+>* For the American Sign Language (ASL) input method, tap anywhere on the screen (except the *ULH*) to open the camera in order to start capturing the sign language input. Once the camera is open, tap anywhere on the screen to stop the camera capture. Tap the *ULH* to delete the previous character from the textbox. Long press the *BH* to send the message *or* start a new conversation.  
+>* For the Text input method, tap on the textbox to enter the text via the virtual keyboard. Long press the *BH* to send the message *or* start a new conversation.  
+6. Tap the back button on your phone as and when necessary to return to the previous screen.  
+  
+*Note: Please grant the necessary permissions to the app to ensure smooth running of the application. An internet connection in mandatory.*
