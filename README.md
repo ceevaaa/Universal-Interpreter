@@ -71,8 +71,8 @@ Please refer to this [link](https://github.com/allanakshay12/Universal-Interpret
 ><code>&nbsp;</code><code>&nbsp;</code>--output_labels=logs/trained_labels.txt \  
 ><code>&nbsp;</code><code>&nbsp;</code>--image_dir=./dataset  
 5. The training summaries, trained graphs and trained labels will be saved in a folder named logs.  
-6. To run prediction on the images use " python classify.py _example.png_ ".  
-7. To run prediction using a webcam use " python classify_webcam.py ".  
+6. To run prediction on the images use `python classify.py _example.png_`.    
+7. To run prediction using a webcam use `python classify_webcam.py`.    
 
 ### Android App Usage
 1. Download the Android App using this [link](https://drive.google.com/file/d/1JIP3Rifu4HVmTj_o0_8483gyBRdiqz4h/view?usp=sharing) onto your Android Device.
